@@ -1,5 +1,6 @@
 import React from 'react';
 import { Star, MessageCircle, ShieldCheck, Heart, Sparkles, Check, Phone } from 'lucide-react';
+import heroImage from '../assets/images/plantora_hero_plant_1790504389999.jpg';
 
 interface HeroProps {
   onOpenWhatsAppModal: () => void;
@@ -7,7 +8,6 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onOpenWhatsAppModal }) => {
   const directWhatsappUrl = "https://wa.me/918007588747?text=Hi%20Plantora!%20I%20would%20like%20to%20order%20the%20Money%20Plant%20(Golden%20Pothos)%20for%20%E2%82%B9399.";
-  const heroImage = "/src/assets/images/plantora_hero_plant_1790504389999.jpg";
 
   return (
     <section className="relative overflow-hidden pt-8 pb-12 md:py-16 bg-gradient-to-b from-[#FAF7F2] via-[#F4EFE6] to-[#FAF7F2]">

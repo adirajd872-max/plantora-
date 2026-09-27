@@ -46,11 +46,11 @@ export const Footer: React.FC = () => {
                 <Phone className="w-4 h-4" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/plantorabydeshmukh_19/?utm_source=ig_web_button_share_sheet"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-white/10 hover:bg-pink-600 hover:text-white flex items-center justify-center transition-colors"
-                aria-label="Instagram"
+                aria-label="Instagram @plantorabydeshmukh_19"
               >
                 <Instagram className="w-4 h-4" />
               </a>
@@ -87,8 +87,13 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-[#D4AF37] font-semibold">Instagram:</span>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="font-bold text-white hover:underline">
-                  @plantora.official
+                <a 
+                  href="https://www.instagram.com/plantorabydeshmukh_19/?utm_source=ig_web_button_share_sheet" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="font-bold text-white hover:underline text-xs"
+                >
+                  @plantorabydeshmukh_19
                 </a>
               </div>
               <div className="flex items-center gap-2">

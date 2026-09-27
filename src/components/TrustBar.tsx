@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Truck, Award, Heart, CheckCircle2, Users, Star } from 'lucide-react';
+import { ShieldCheck, Truck, Award, Heart, CheckCircle2, Users, Star, Instagram } from 'lucide-react';
 
 export const TrustBar: React.FC = () => {
   const reviews = [
@@ -87,45 +87,42 @@ export const TrustBar: React.FC = () => {
             </div>
             <div>
               <h3 className="font-serif text-lg font-bold text-[#0F3820]">
-                1,200+ Community
+                Instagram Community
               </h3>
               <p className="text-xs text-stone-600 mt-1">
-                Joined by green lovers on Instagram & WhatsApp care assistance.
+                Follow @plantorabydeshmukh_19 for plant care tips & reels.
               </p>
             </div>
           </div>
 
         </div>
 
-        {/* Social Proof & Follower Count Bar */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 p-5 bg-[#0F3820] text-white rounded-2xl shadow-lg">
+        {/* Official Instagram Badge Bar */}
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 p-5 bg-gradient-to-r from-[#0F3820] via-[#1B4D2E] to-[#0F3820] text-white rounded-2xl shadow-lg border border-emerald-800/80">
           <div className="flex items-center gap-3">
-            {/* Avatar Stack */}
-            <div className="flex -space-x-3 overflow-hidden">
-              <img className="inline-block h-9 w-9 rounded-full ring-2 ring-[#0F3820] object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80" alt="Follower 1" />
-              <img className="inline-block h-9 w-9 rounded-full ring-2 ring-[#0F3820] object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80" alt="Follower 2" />
-              <img className="inline-block h-9 w-9 rounded-full ring-2 ring-[#0F3820] object-cover" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=80&q=80" alt="Follower 3" />
-              <div className="h-9 w-9 rounded-full bg-[#2D6A4F] text-[#D4AF37] font-bold text-xs flex items-center justify-center ring-2 ring-[#0F3820]">
-                +6
+            <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-amber-400 via-rose-500 to-purple-600 p-0.5 shrink-0 shadow-md">
+              <div className="w-full h-full bg-[#0F3820] rounded-full flex items-center justify-center">
+                <Instagram className="w-5 h-5 text-white" />
               </div>
             </div>
             <div>
               <p className="text-xs sm:text-sm font-semibold text-white">
-                Followed by <strong className="text-[#E5C158]">Rohan, Preeti, Aravind</strong> +6 more friends
+                Follow Us on Instagram: <span className="text-[#E5C158] font-bold font-mono">@plantorabydeshmukh_19</span>
               </p>
               <p className="text-[11px] text-emerald-200">
-                1,200+ Instagram Followers • @plantora.official
+                Get daily plant care tips, customer showcases & reel updates!
               </p>
             </div>
           </div>
 
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/plantorabydeshmukh_19/?utm_source=ig_web_button_share_sheet"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-xs font-bold text-white border border-white/20 transition-colors shrink-0"
+            className="px-5 py-2.5 rounded-xl bg-[#D4AF37] hover:bg-[#c49f2c] active:bg-[#b38f22] text-[#0F3820] text-xs font-bold transition-all shadow-md shrink-0 flex items-center gap-2"
           >
-            Visit Instagram
+            <Instagram className="w-4 h-4" />
+            <span>Visit @plantorabydeshmukh_19</span>
           </a>
         </div>
 

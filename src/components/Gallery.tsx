@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import { ZoomIn, X, ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
 
+import imgFullPot from '../assets/images/plantora_hero_plant_1790504389999.jpg';
+import imgMacroLeaves from '../assets/images/plantora_gallery_leaves_1790504406138.jpg';
+import imgDeskSetting from '../assets/images/plantora_gallery_desk_1790504421834.jpg';
+import imgShelfDecor from '../assets/images/plantora_gallery_shelf_1790504437848.jpg';
+
 interface GalleryItem {
   id: string;
   url: string;
@@ -13,28 +18,28 @@ export const Gallery: React.FC = () => {
   const images: GalleryItem[] = [
     {
       id: 'full-pot',
-      url: '/src/assets/images/plantora_hero_plant_1790504389999.jpg',
+      url: imgFullPot,
       title: 'Healthy Golden Pothos in Pot',
       description: 'Lush variegated foliage pre-potted in a lightweight matte white ceramic-style pot with matching drainage saucer.',
       badge: 'Full View'
     },
     {
       id: 'macro-leaves',
-      url: '/src/assets/images/plantora_gallery_leaves_1790504406138.jpg',
+      url: imgMacroLeaves,
       title: 'Vibrant Variegated Foliage',
       description: 'Golden yellow and emerald green heart-shaped leaves that naturally purify indoor air.',
       badge: 'Leaf Detail'
     },
     {
       id: 'desk-setting',
-      url: '/src/assets/images/plantora_gallery_desk_1790504421834.jpg',
+      url: imgDeskSetting,
       title: 'Perfect for Office & Study Desks',
       description: 'Adds a calm green presence to your study table or work laptop setup.',
       badge: 'Workspace'
     },
     {
       id: 'shelf-decor',
-      url: '/src/assets/images/plantora_gallery_shelf_1790504437848.jpg',
+      url: imgShelfDecor,
       title: 'Living Room & Shelf Decor',
       description: 'Trails gracefully over bookshelves, TV consoles, or hanging planters.',
       badge: 'Home Styling'
